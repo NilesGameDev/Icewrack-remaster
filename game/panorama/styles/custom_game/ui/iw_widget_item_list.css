@@ -1,0 +1,128 @@
+.ItemListRoot
+{
+	width: 100%;
+	height: fill-parent-flow(1.0);
+}
+
+.ItemListContent
+{
+	width: 100%;
+	height: 100%;
+	background-color: #000000C0;
+	margin: 258px 28px 16px 0px;
+	
+}
+
+.ItemListContainer
+{
+	margin-top: 32px;
+	width: 100%;
+	height: 100%;
+	overflow: clip;
+}
+
+.ItemListHitbox
+{
+	width: 100%;
+	height: 100%;
+	margin: 258px 28px 16px 0px;
+}
+
+.ItemListBody
+{
+	height: fit-children;
+	flow-children: down;
+	overflow: clip;
+}
+
+.ItemListTabContainer
+{
+	margin-top: 157px;
+	width: 492px;
+	flow-children: right;
+}
+
+.ItemListTabLabel
+{
+	color: #ffffff40;
+	width: 100%;
+	font-size: 20px;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,Gulim,MingLiU;
+	text-align: center;
+	margin: 230px 28px 0px 0px;
+}
+
+.ItemListSorter
+{
+	width: 100%;
+	height: 32px;
+	flow-children: right;
+	border-bottom: 2px solid #ffffff10;
+}
+
+.ItemListSorterDivider
+{
+	width: 0px;
+	height: 100%;
+	background-color: #80808010;
+}
+
+.ItemListSorterRightCategory
+{
+	height: 100%;
+	width: fit-children;
+	margin-right: 4px;
+	flow-children: right;
+}
+
+.ItemListSorterLeftCategory
+{
+	height: 100%;
+	width: fit-children;
+	margin-right: 4px;
+	flow-children: left;
+}
+
+.ItemListSorterLabel
+{
+	text-align: center;
+	vertical-align: center;
+	color: #ffffff30;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: RadianceM,Radiance,FZLanTingHei-R-GBK,TH Sarabun New,Gulim,MingLiU;
+}
+
+.ItemListSorterDirectionIcon
+{
+	height: 22px;
+	width: 9px;
+	vertical-align: center;
+	opacity: 0.1;
+}
+
+.DirectionIconSortAscending
+{
+	transform: scale3d(1.0, -1.0, 1.0);
+}
+
+#TypeCategory
+{
+	padding-left: 14px;
+	width: 40px;
+}
+
+#NameCategory
+{
+	width: 256px;
+}
+
+#ValueCategory
+{
+	width: 72px;
+}
+
+#WeightCategory
+{
+	width: 72px;
+}

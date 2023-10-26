@@ -1,0 +1,93 @@
+.LootableRoot
+{
+	width: 100%;
+	height: 100%;
+}
+
+#Lootable
+{
+	width: fit-children;
+	height: fit-children;
+	horizontal-align: center;
+	vertical-align: center;
+}
+
+.LootableScreenFill
+{
+    width: 100%;
+    height: 100%;
+	background-color: #000000C0;
+}
+
+.FillActive
+{
+	animation-name: FillFadeIn;
+	animation-duration: 0.25s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+@keyframes 'FillFadeIn'
+{
+	0%
+	{
+	    opacity: 0.0;
+	}
+	50%
+	{
+	    opacity: 0.5;
+	}
+	100%
+	{
+	    opacity: 1.0;
+	}
+}
+
+.FillInactive
+{
+	animation-name: FillFadeOut;
+	animation-duration: 0.25s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+}
+
+@keyframes 'FillFadeOut'
+{
+	0%
+	{
+	    opacity: 1.0;
+	}
+	50%
+	{
+	    opacity: 0.5;
+	}
+	100%
+	{
+	    opacity: 0.0;
+	}
+}
+
+.LootableAttribContainer
+{
+	width: fit-children;
+	height: 64px;
+	flow-children: down;
+}
+
+#LeftAttribs
+{
+	x: 16px;
+	y: 92px;
+}
+
+#RightAttribs
+{
+	x: 328px;
+	y: 92px;
+}
+
+#TakeAllButton
+{
+	y: 80px;
+	horizontal-align: center;
+}
