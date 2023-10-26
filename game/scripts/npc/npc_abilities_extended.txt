@@ -1,0 +1,327 @@
+"IcewrackExtendedAbilityDefinitions"
+{
+	"internal_animation"	{}
+	"internal_revive"
+	{
+		"ScriptFile"	"scripts/vscripts/mechanics/revive.lua"
+	}
+
+	"status_bash"		{}
+	"status_maim"		{}
+	"status_bleed"		{}
+	"status_burning"	{}
+	"status_chill"		{}
+	"status_frozen"		{}
+	"status_decay"		{}
+	"status_wet"		{}
+	"status_warm"		{}
+
+	"aam_do_nothing"	{}
+	"aam_skip_to_condition"	{}
+	"aam_skip_remaining"	{}
+	"aam_attack"		{}
+	"aam_hold_position"	{}
+	"aam_move_away_from"	{}
+	"aam_move_towards"	{}
+	"aam_move_in_front_of"	{}
+	"aam_move_behind"	{}
+	"aam_use_quick_item"	{}
+
+	"iw_axe_berserkers_call"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/axe/iw_axe_berserkers_call.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_AOE"
+		"AbilitySkill"		"147"
+
+		"StaminaCost"		"20"
+	}
+	
+	"iw_axe_battle_hunger"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/axe/iw_axe_battle_hunger.lua"
+		"AbilitySkill"		"148"
+	}
+
+	"iw_axe_counter_helix"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/axe/iw_axe_counter_helix.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_ATTACK | IW_ABILITY_FLAG_KEYWORD_AOE"
+		"AbilitySkill"		"37739"
+
+		"StaminaCost"		"10"
+		"StaminaUpkeep"		"10"
+	}
+
+	"iw_axe_culling_blade"
+	{
+		"AbilitySkill"		"37738"
+	}
+
+	"iw_dragon_knight_deafening_roar"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/dragon_knight/iw_dragon_knight_deafening_roar.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_AOE"
+		"AbilitySkill"		"37690"
+
+		"ManaCost"		"20"
+		"StaminaCost"		"20"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_dragon_knight"
+			{
+				"ACT_DOTA_CAST_ABILITY_1"	"1.0"
+			}
+		}
+	}
+
+	"iw_dragon_knight_breathe_fire"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/dragon_knight/iw_dragon_knight_breathe_fire.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_SPELL | IW_ABILITY_FLAG_KEYWORD_AOE"
+		"AbilitySkill"		"0"
+
+		"ManaCost"		"40"
+
+		"Properties"
+		{
+			"IW_PROPERTY_CRIT_CHANCE_FLAT"		"0.05"
+			"IW_PROPERTY_CRIT_MULTI_FLAT"		"0.5"
+		}
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_dragon_knight"
+			{
+				"ACT_DOTA_CAST_ABILITY_1"	"1.0"
+			}
+		}
+	}
+
+	"iw_dragon_knight_shield_slam"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/dragon_knight/iw_dragon_knight_shield_slam.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_ATTACK | IW_ABILITY_FLAG_SINGLE"
+		"AbilitySkill"		"37514"
+
+		"StaminaCost"		"25"
+
+		"Properties"
+		{
+			"IW_PROPERTY_CRIT_CHANCE_FLAT"		"0.05"
+			"IW_PROPERTY_CRIT_MULTI_FLAT"		"0.5"
+		}
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_dragon_knight"
+			{
+				"ACT_DOTA_CAST_ABILITY_2"	"1.0"
+			}
+		}
+	}
+
+	"iw_dragon_knight_endurance_aura"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/dragon_knight/iw_dragon_knight_endurance_aura.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_TOGGLE_OFF_ON_DEATH | IW_ABILITY_FLAG_KEYWORD_AURA"
+		"AbilitySkill"		"58"
+
+		"ManaUpkeep"		"5"
+	}
+
+	"iw_dragon_knight_dragons_blood"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/dragon_knight/iw_dragon_knight_dragons_blood.lua"
+		"AbilitySkill"		"37433"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_dragon_knight"
+			{
+				"ACT_DOTA_VICTORY"	"2.0"
+			}
+		}
+	}
+
+	"iw_dragon_knight_razorscales"
+	{
+		"AbilitySkill"		"37433"
+	}
+
+	"iw_dragon_knight_dragon_form"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/dragon_knight/iw_dragon_knight_dragon_form.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_SPELL"
+		"AbilitySkill"		"8534796"
+
+		"ManaCost"		"100"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_dragon_knight"
+			{
+				"ACT_DOTA_TELEPORT"	"1.0"
+			}
+		}
+	}
+
+	"iw_drow_ranger_frost_arrows"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/drow_ranger/iw_drow_ranger_frost_arrows.lua"
+		"AbilityFlags"		""
+		"AbilitySkill"		"33561"
+
+		"ManaCost"		"8"
+	}
+
+	"iw_drow_ranger_feral_bond"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/drow_ranger/iw_drow_ranger_feral_bond.lua"
+
+		"ManaCost"		"40"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_drow_ranger"
+			{
+				"ACT_DOTA_CAST_ABILITY_2"	"1.0"
+			}
+		}
+	}
+
+	"iw_drow_ranger_precision_aura"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/drow_ranger/iw_drow_ranger_precision_aura.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_TOGGLE_OFF_ON_DEATH | IW_ABILITY_FLAG_KEYWORD_AURA"
+
+		"ManaUpkeep"		"4"
+	}
+
+	"iw_drow_ranger_bullseye"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/drow_ranger/iw_drow_ranger_bullseye.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_ATTACK | IW_ABILITY_FLAG_SINGLE | IW_ABILITY_FLAG_USES_ATTACK_RANGE"
+
+		"StaminaCost"		"15"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_drow_ranger"
+			{
+				"ACT_DOTA_CAST_ABILITY_4"	"1.0"
+			}
+		}
+	}
+
+	"iw_bounty_hunter_ensnare"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/bounty_hunter/iw_bounty_hunter_ensnare.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_IGNORE_LOS_BLOCKERS | IW_ABILITY_FLAG_SINGLE"
+
+		"Properties"	{}
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_bounty_hunter"
+			{
+				"ACT_DOTA_CAST_ABILITY_4"	"1.0"
+			}
+		}
+	}
+
+	"iw_bounty_hunter_trapjaw"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/bounty_hunter/iw_bounty_hunter_trapjaw.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_SPELL"
+
+		"Properties"
+		{
+			"IW_PROPERTY_CRIT_CHANCE_FLAT"		"0.07"
+			"IW_PROPERTY_CRIT_MULTI_FLAT"		"0.75"
+		}
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_bounty_hunter"
+			{
+				"ACT_DOTA_TELEPORT"	"1.0"
+			}
+		}
+	}
+
+	"iw_bounty_hunter_jinada"
+	{
+	}
+
+	"iw_bounty_hunter_smoke_bomb"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/bounty_hunter/iw_bounty_hunter_smoke_bomb.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_IGNORE_LOS_BLOCKERS | IW_ABILITY_FLAG_KEYWORD_SPELL | IW_ABILITY_FLAG_KEYWORD_AOE"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_bounty_hunter"
+			{
+				"ACT_DOTA_CAST_ABILITY_1"	"1.0"
+			}
+		}
+	}
+
+	"iw_bounty_hunter_track"
+	{
+	}
+
+	"iw_lina_lesser_fireball"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/lina/iw_lina_lesser_fireball.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_SPELL | IW_ABILITY_FLAG_SINGLE | IW_ABILITY_FLAG_AUTOCAST_ATTACK"
+		"AbilitySkill"		"9"
+
+		"ManaCost"		"10"
+	}
+
+	"iw_lina_inner_fire"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/lina/iw_lina_inner_fire.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_SPELL | IW_ABILITY_FLAG_SINGLE"
+
+		"ManaCost"		"35"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_lina"
+			{
+				"ACT_DOTA_CAST_ABILITY_3"	"1.0"
+			}
+		}
+	}
+
+	"iw_lina_pyrotheosis"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/lina/iw_lina_pyrotheosis.lua"
+
+		"ManaCost"		"80"
+	}
+
+	"iw_campfire_dummy_buff"	{}
+
+
+
+
+	"iw_warmth"
+	{
+		"ScriptFile"		"scripts/vscripts/abilities/iw_warmth.lua"
+		"AbilityFlags"		"IW_ABILITY_FLAG_KEYWORD_SPELL | IW_ABILITY_FLAG_KEYWORD_AOE"
+
+		"ManaCost"		"25"
+
+		"AbilityCastAnimation"
+		{
+			"npc_dota_hero_lina"
+			{
+				"ACT_DOTA_CAST_ABILITY_1"	"1.0"
+			}
+		}
+	}
+}

@@ -1,0 +1,145 @@
+"IcewrackInstanceList"
+{
+	"1"
+	{
+		"Name"			"npc_dota_hero_axe"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+
+	"2"
+	{
+		"Name"			"npc_dota_hero_dragon_knight"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+
+	"3"
+	{
+		"Name"			"npc_dota_hero_drow_ranger"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+
+	"4"
+	{
+		"Name"			"npc_dota_hero_bounty_hunter"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+	
+	"5"
+	{
+		"Name"			"npc_dota_hero_lina"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+
+	"6"
+	{
+		"Name"			"npc_dota_hero_omniknight"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+
+	"7"
+	{
+		"Name"			"npc_dota_hero_legion_commander"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+		"Dialogue"
+		{
+			"Entries"		"1"
+		}
+	}
+
+	"8"
+	{
+		"Name"			"npc_iw_blacksmith"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+		"Dialogue"
+		{
+			"InteractZone"		"dialogue_trigger_01"
+			"Entries"		"1"
+		}
+	}
+
+	"100"
+	{
+		"Name"			"prop_iw_snowy_barrel_01"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_CONTAINER"
+	}
+
+	"101"
+	{
+		"Name"			"prop_iw_snowy_barrel_01"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_CONTAINER"
+	}
+
+	"102"
+	{
+		"Name"			"prop_iw_snowy_barrel_02"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_CONTAINER"
+	}
+
+	"103"
+	{
+		"Name"			"prop_iw_snowy_crate_03"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_CONTAINER"
+	}
+
+	"104"
+	{
+		"Name"			"prop_iw_warlock_crate"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_CONTAINER"
+	}
+
+	"105"
+	{
+		"Name"			"npc_iw_campfire_dummy"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_WORLD_OBJECT"
+	}
+
+	"106"
+	{
+		"Name"			"npc_iw_campfire_dummy"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_WORLD_OBJECT"
+	}
+
+	"107"
+	{
+		"Name"			"npc_iw_campfire_dummy"
+		"FactionID"		"2"
+		"Type"			"IW_INSTANCE_WORLD_OBJECT"
+	}
+
+
+	
+
+	"10000"
+	{
+		"Name"			"npc_dota_hero_windrunner"
+		"FactionID"			"4"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+	"10001"
+	{
+		"Name"			"prop_iw_test_treasure_chest"
+		"FactionID"			"2"
+		"Type"			"IW_INSTANCE_CONTAINER"
+	}
+	"10002"
+	{
+		"Name"			"npc_iw_test_beast"
+		"FactionID"			"5"
+		"Type"			"IW_INSTANCE_EXT_ENTITY"
+	}
+}

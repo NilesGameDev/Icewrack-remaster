@@ -1,0 +1,13 @@
+"IcewrackDialogueListDefinitions"
+{
+	"7"
+	{
+		"Nodes"			"1"
+	}
+
+	"8"
+	{
+		"InteractZone"			"dialogue_trigger_01"
+		"Nodes"			"1"
+	}
+}

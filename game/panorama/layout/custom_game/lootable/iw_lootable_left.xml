@@ -1,9 +1,0 @@
-<root>
-	<styles>
-		<include src="file://{resources}/styles/custom_game/lootable/iw_lootable.css" />
-	</styles>
-	
-	<Panel hittest="false" class="LootableLeftContentRoot">
-		<Panel hittest="false" class="LootableAttribContainer" id="LeftAttribs" />
-	</Panel>
-</root>
